@@ -5,8 +5,7 @@ One of the information in the image that can be used inprocessing is color. An o
 by paying attention to the color of the object. In application, the objects that are recognized can vary, for example
 is animal recognition. Cat is one of the objects that can be recognized by utilizing color-based image processing.
 
-Method: 
-- create simple color database consisting mean RGB colors of cat's segmented image
+Method: create simple color database consisting mean RGB colors of cat's segmented image
 
 Recognition steps:
 1. Edge detection (Canny) to detect cat body's egdes
@@ -15,5 +14,4 @@ Recognition steps:
 4. Color matching using euclidean distance of mean RGB with cats in the database
 
 
-
-https://informatika.stei.itb.ac.id/~rinaldi.munir/Citra/2021-2022/Makalah/Makalah_IF4073_Citra_2022%20(9).pdf
+Paper: https://informatika.stei.itb.ac.id/~rinaldi.munir/Citra/2021-2022/Makalah/Makalah_IF4073_Citra_2022%20(9).pdf
